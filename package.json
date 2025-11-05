@@ -1,0 +1,45 @@
+{
+  "name": "botto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "chroma": "chroma run --path ./chroma_db"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinulimann/botto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dinulimann/botto/issues"
+  },
+  "homepage": "https://github.com/dinulimann/botto#readme",
+  "dependencies": {
+    "@ai-sdk/groq": "^2.0.28",
+    "@chroma-core/default-embed": "^0.1.8",
+    "@tailwindcss/postcss": "^4.1.16",
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.2",
+    "ai": "^5.0.87",
+    "autoprefixer": "^10.4.21",
+    "chromadb": "^3.1.1",
+    "groq-sdk": "^0.34.0",
+    "langchain": "^1.0.2",
+    "mammoth": "^1.11.0",
+    "next": "^16.0.1",
+    "onnxruntime-node": "^1.23.2",
+    "pdf-parse": "^2.4.5",
+    "postcss": "^8.5.6",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tailwindcss": "^4.1.16",
+    "typescript": "^5.9.3"
+  }
+}

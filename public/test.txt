@@ -1,0 +1,27 @@
+Ini adalah dokumen test untuk chatbot RAG.
+
+Botto adalah aplikasi web-based chatbot dengan Retrieval-Augmented Generation (RAG) yang memungkinkan Anda untuk chat dengan dokumen Anda sendiri.
+
+Tech Stack yang digunakan:
+- Frontend: Next.js 15 + TypeScript + Tailwind CSS
+- LLM: Groq API (Free tier dengan model Llama 3.1)
+- Vector Database: ChromaDB (Local, gratis)
+- Document Processing: pdf-parse, mammoth
+
+Fitur utama:
+1. Upload dokumen (PDF, Word, TXT)
+2. Chat dengan dokumen menggunakan RAG
+3. Streaming responses untuk pengalaman real-time
+4. UI yang clean dan responsive
+5. Semua tech stack 100% gratis!
+
+Cara menggunakan:
+1. Upload dokumen dengan klik area upload
+2. Tunggu proses selesai
+3. Mulai bertanya tentang isi dokumen
+4. AI akan menjawab berdasarkan konteks dari dokumen
+
+Keunggulan aplikasi ini:
+- Privacy first: Dokumen disimpan secara local
+- 100% gratis: Tidak ada biaya tersembunyi
+- Mudah dikustomisasi: Code yang clean dan well-structured
