@@ -47,3 +47,5 @@ export async function extractText(filePath: string, mimeType: string): Promise<s
     throw new Error(`Unsupported file type: ${mimeType}`);
   }
 }
+  
+  
