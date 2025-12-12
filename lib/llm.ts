@@ -14,7 +14,6 @@ export async function generateResponse(
   context?: string
 ): Promise<string> {
   try {
-    // If we have context from RAG, add it to the system message
     const systemMessage = context
       ? {
           role: 'system' as const,
