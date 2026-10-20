@@ -2,6 +2,19 @@
 
 Web-based chatbot dengan Retrieval-Augmented Generation (RAG) yang memungkinkan Anda untuk chat dengan dokumen Anda sendiri. Semua tech stack yang digunakan **100% GRATIS**!
 
+## Overview (English)
+
+Chat with your own documents. Upload PDF, Word or TXT files and ask questions about them. Answers stream back in real time, grounded in the uploaded content through **Retrieval-Augmented Generation (RAG)**.
+
+- **Stack:** Next.js 15 + TypeScript + Tailwind CSS, **ChromaDB** as a local vector store with Chroma's default embedding model running locally, **Groq** (Llama 3.1 8B) as the LLM. The retrieval pipeline is written directly against the Chroma and Groq SDKs.
+- **Privacy-minded:** documents and embeddings stay on your machine; only the question and the retrieved passages are sent to the LLM API.
+- **Free to run:** every component is open source or on a free tier.
+
+Setup instructions below are in Indonesian.
+
+---
+
+
 ## Tech Stack
 
 - **Frontend**: Next.js 15 + TypeScript + Tailwind CSS
